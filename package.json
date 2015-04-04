@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "author": "Michael Kane @marclar",
   "description": "streamline loader module for webpack",
+  "main": "index.js",
   "dependencies": {
     "loader-utils": "0.2.x",
     "streamline": "^0.12.1"
