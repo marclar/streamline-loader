@@ -1,0 +1,20 @@
+{
+  "name": "streamline-loader",
+  "version": "0.0.0",
+  "author": "Michael Kane @marclar",
+  "description": "streamline loader module for webpack",
+  "dependencies": {
+    "loader-utils": "0.2.x",
+    "streamline": "^0.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marclar/streamline-loader.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
