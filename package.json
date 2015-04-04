@@ -5,6 +5,7 @@
   "description": "streamline loader module for webpack",
   "main": "index.js",
   "dependencies": {
+    "coffee-script": "^1.9.1",
     "loader-utils": "0.2.x",
     "streamline": "^0.12.1"
   },
