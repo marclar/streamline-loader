@@ -6,8 +6,6 @@ require("streamline/register");
 var path = require("path");
 var compiler = require("streamline/lib/compiler/compile");
 module.exports = function(source) {
-  var me = this;
-  var callback = this.async();
 
   //Add dependency for file watching
   this.addDependency(path.resolve(this.resourcePath));
@@ -28,10 +26,10 @@ module.exports = function(source) {
   }
   catch(e){
     console.error('error in streamline-loader', e);
-    callback(e);
+    this.callback(e);
   }
 
   //Callback immediately to avoid error
-  callback(null, '');
+	this.callback(null, '');
 
 };
