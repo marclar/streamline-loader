@@ -19,7 +19,7 @@ module.exports = function(source) {
     }
     else{
       console.log('\nstreamline-loader success:\n', result);
-			//callback(null, result.transformed, result.sourceMap);
+			callback(null, result.transformed, result.sourceMap);
     }
   };
 
@@ -32,6 +32,6 @@ module.exports = function(source) {
   }
 
   //Callback immediately to avoid error
-	callback(null, '');
+	//callback(null, '');
 
 };
