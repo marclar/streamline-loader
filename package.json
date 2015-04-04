@@ -1,6 +1,6 @@
 {
   "name": "streamline-loader",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Michael Kane @marclar",
   "description": "streamline loader module for webpack",
   "main": "index.js",
